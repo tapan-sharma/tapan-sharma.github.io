@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+<!--- Please see below for ASCII codes -->
+<!--- USE &#x274C; for "red X" -->
+<!--- USE &#x2705; for "green check mark" -->
 
-You can use the [editor on GitHub](https://github.com/tapan-sharma/tapan-sharma.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Data Insights & Analytics Data Source Refresh
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## As of: 8/11/2020 6:25 AM 
 
-### Markdown
+### Notes:
+<!---    -->
+### Few data sources refresh are still in progress as of now.
+<!--- END NOTES SECTION -->
+***
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+| Data Source             | Tableau  |  GAH/IBI      | Hyperion/PBCS|
+| ------------            | :------: |  :----------: | :----------: |
+| AA Sub                  | &#x274C; | &#x2705;      | &#x2705;  |
+| AP Invoice              | &#x2705; | &#x2705;      | &#x2705;  |
+| AR Header               | &#x2705; | &#x2705;      | &#x2705;  |
+| AR Line                 | &#x2705; | &#x2705;      | __N/A__  |
+| Backlog                 | &#x2705; | &#x2705;      | &#x2705;  |
+| International Tax       | &#x2705; | &#x2705;      | &#x2705;  |
+| Inventory               | &#x274C; | &#x274C;      | &#x274C;  |
+| OPR                     | &#x274C; | &#x2705;      | &#x2705;  |
+| PA Labor Hours          | &#x274C; | &#x2705;      | __N/A__  |
+| PPR                     | &#x2705; | &#x2705;      | &#x2705;  |
+| Preliminary Orders      | &#x2705; | __N/A__       | __N/A__  |
+| Services Effective Cost | &#x2705; | __N/A__       | __N/A__  |
+| Services Projections    | &#x2705; | __N/A__       | &#x2705;  |
 
-```markdown
-Syntax highlighted code block
+***
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### SLAs
 
-1. Numbered
-2. List
+1. If only Hyperion/PBCS are impacted, only include Finance Systems and Analytics.
+2. Alert goes out by **6:30 AM Central**.  During Finance month-end close (business days 1-5) please alert by **5:00 AM Central**.
+3. If the issue is for a Tableau refresh only, please do not include distribution lists in Business List 3 and Business List 4.
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Distribution Lists for Alerts
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tapan-sharma/tapan-sharma.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ | Data Source           | Business List 1               |  Business List 2    | Business List 3  | Business List 4|
+| ------------           | ----------------------------- |---------------   | ----------       | ----------    | 
+| AA Sub                 | Finance Systems and Analytics   | ServicesFinance   | FinanceClosing        |
+| AP Invoice             | Finance Systems and Analytics   | ServicesFinance   | Finance Data Alert AR | Finance Data Alert BBC |
+| AR Header              | Finance Systems and Analytics   | ServicesFinance   | Finance Data Alert AR | Finance Data Alert BBC |
+| AR Line                | Finance Systems and Analytics   | ServicesFinance   | Finance Data Alert AP |
+| Backlog                | Finance Systems and Analytics   | ServicesFinance   | FinanceClosing        |
+| International Tax      | Finance Systems and Analytics   | ServicesFinance   | Balazs.Tomanoczy@wwt.com|
+| Inventory              | Finance Systems and Analytics   | ServicesFinance   |  |
+| OPR                    | Finance Systems and Analytics   | ServicesFinance   | FinanceClosing  |
+| PA Labor Hours         | Finance Systems and Analytics   | ServicesFinance   |   |
+| PPR                    | Finance Systems and Analytics   | ServicesFinance   |   |
+| Preliminary Orders     | Finance Systems and Analytics   | ServicesFinance   |   |
+| Services Effective Cost| Finance Systems and Analytics   | ServicesFinance   |   |
+| Services Projections   | Finance Systems and Analytics   | ServicesFinance   |   |
